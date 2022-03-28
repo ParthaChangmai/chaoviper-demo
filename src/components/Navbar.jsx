@@ -3,7 +3,6 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 import pc from '../assets/pc.png';
 import Social from './Social';
-import { Link } from 'react-scroll';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import pc from '../assets/pc.png';
 import Social from './Social';
@@ -11,26 +12,26 @@ const Navbar = () => {
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171717] text-gray-300">
 			<div className="hover:cursor-pointer">
-				<a href="/">
+				<Link to="/">
 					<img src={pc} alt="logo image" style={{ width: '80px' }} />
-				</a>
+				</Link>
 			</div>
 			{/* menu */}
 			<ul className="hidden md:flex ">
 				<li>
-					<a href="/">Home</a>
+					<Link to="/">Home</Link>
 				</li>
 				<li>
-					<a href="/about">About</a>
+					<Link to="about">About</Link>
 				</li>
 				<li>
-					<a href="/skills">Skills</a>
+					<Link to="skills">Skills</Link>
 				</li>
 				<li>
-					<a href="/work">Work</a>
+					<Link to="work">Work</Link>
 				</li>
 				<li>
-					<a href="/contact">Contact</a>
+					<Link to="contact">Contact</Link>
 				</li>
 			</ul>
 			{/* Hamburger */}

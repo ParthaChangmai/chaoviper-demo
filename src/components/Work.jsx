@@ -15,7 +15,30 @@ const Work = () => {
 					{/* grid item */}
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+					>
+						{/* hover effect */}
+						<div className="opacity-0 group-hover:opacity-60">
+							<span className="text-2xl font-bold text-white tracking-wider">
+								React Js Application
+							</span>
+							<div className="pt-8 text-center">
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-800 font-bold text-lg ">
+										Demo
+									</button>
+								</a>
+								<a href="/">
+									<button className="text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-800 font-bold text-lg ">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div
+						style={{ backgroundImage: `url(${WorkImg})` }}
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* hover effect */}
 						<div className="opacity-0 group-hover:opacity-75 transition-all-500">
@@ -38,7 +61,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* hover effect */}
 						<div className="opacity-0 group-hover:opacity-75 transition-all-500">
@@ -61,7 +84,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* hover effect */}
 						<div className="opacity-0 group-hover:opacity-75 transition-all-500">
@@ -84,30 +107,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
-					>
-						{/* hover effect */}
-						<div className="opacity-0 group-hover:opacity-75 transition-all-500">
-							<span className="text-2xl font-bold text-white tracking-wider">
-								React Js Application
-							</span>
-							<div className="pt-8 text-center">
-								<a href="/">
-									<button className="text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-800 font-bold text-lg ">
-										Demo
-									</button>
-								</a>
-								<a href="/">
-									<button className="text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-800 font-bold text-lg ">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div
-						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* hover effect */}
 						<div className="opacity-0 group-hover:opacity-75">
@@ -130,7 +130,7 @@ const Work = () => {
 					</div>
 					<div
 						style={{ backgroundImage: `url(${WorkImg})` }}
-						className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-md md:shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
 						{/* hover effect */}
 						<div className="opacity-0 group-hover:opacity-75">

@@ -12,6 +12,7 @@ const Social = () => {
 						className="flex justify-between items-center w-full text-gray-300"
 						href="https://www.linkedin.com/in/partha-changmai-6a9293208"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Linkedin <FaLinkedin size={30} />
 					</a>
@@ -21,6 +22,7 @@ const Social = () => {
 						className="flex justify-between items-center w-full text-gray-300"
 						href="https://github.com/ParthaChangmai"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Github <FaGithub size={30} />
 					</a>
@@ -30,6 +32,7 @@ const Social = () => {
 						className="flex justify-between items-center w-full text-gray-300"
 						href="mailto:chaoviper@gmail.com"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Email <HiOutlineMail size={30} />
 					</a>
@@ -39,6 +42,7 @@ const Social = () => {
 						className="flex justify-between items-center w-full text-gray-300"
 						href="/"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Resume <BsFillPersonLinesFill size={30} />
 					</a>

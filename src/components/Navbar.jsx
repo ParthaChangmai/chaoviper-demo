@@ -13,7 +13,7 @@ const Navbar = () => {
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171717] text-gray-300">
 			<div className="hover:cursor-pointer">
 				<Link to="/">
-					<img src={pc} alt="logo image" style={{ width: '80px' }} />
+					<img src={pc} alt="logo" style={{ width: '80px' }} />
 				</Link>
 			</div>
 			{/* menu */}

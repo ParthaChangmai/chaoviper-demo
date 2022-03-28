@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import Link from 'react-scroll/modules/components/Link';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
@@ -21,7 +21,7 @@ const Home = () => {
 					qui. Molestiae earum dolorum temporibus.
 				</p>
 				<div>
-					<Link to="work" smooth={true} offset={50} duration={500}>
+					<Link to="work">
 						<button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6133f5] hover:border-white">
 							view work
 							<span className="group-hover:rotate-90 duration-500">

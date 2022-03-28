@@ -12,36 +12,26 @@ const Navbar = () => {
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171717] text-gray-300">
 			<div className="hover:cursor-pointer">
-				<Link to="home" smooth={true} offset={50} duration={500}>
+				<a href="/">
 					<img src={pc} alt="logo image" style={{ width: '80px' }} />
-				</Link>
+				</a>
 			</div>
 			{/* menu */}
 			<ul className="hidden md:flex ">
 				<li>
-					<Link to="home" smooth={true} offset={50} duration={500}>
-						Home
-					</Link>
+					<a href="/">Home</a>
 				</li>
 				<li>
-					<Link to="about" smooth={true} offset={50} duration={500}>
-						About
-					</Link>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<Link to="skills" smooth={true} offset={50} duration={500}>
-						Skills
-					</Link>
+					<a href="/skills">Skills</a>
 				</li>
 				<li>
-					<Link to="work" smooth={true} offset={50} duration={500}>
-						Work
-					</Link>
+					<a href="/work">Work</a>
 				</li>
 				<li>
-					<Link to="contact" smooth={true} offset={50} duration={500}>
-						Contact
-					</Link>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 			{/* Hamburger */}
@@ -57,59 +47,19 @@ const Navbar = () => {
 				}
 			>
 				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="home"
-						smooth={true}
-						offset={50}
-						duration={500}
-					>
-						Home
-					</Link>
+					<a href="/">Home</a>
 				</li>
 				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="about"
-						smooth={true}
-						offset={50}
-						duration={500}
-					>
-						About
-					</Link>
+					<a href="/about">About</a>
 				</li>
 				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="skills"
-						smooth={true}
-						offset={50}
-						duration={500}
-					>
-						Skills
-					</Link>
+					<a href="/skills">Skills</a>
 				</li>
 				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="work"
-						smooth={true}
-						offset={50}
-						duration={500}
-					>
-						Work
-					</Link>
+					<a href="/work">Work</a>
 				</li>
 				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="contact"
-						smooth={true}
-						offset={50}
-						duration={500}
-					>
-						Contact
-					</Link>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 			{/* Social icons*/}

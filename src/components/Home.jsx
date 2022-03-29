@@ -25,9 +25,9 @@ const Home = () => {
 						qui. Molestiae earum dolorum temporibus.
 					</p>
 					<div>
-						<Link to="work">
+						<Link to="contact">
 							<button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6133f5] hover:border-white">
-								view work
+								Contact Me
 								<span className="group-hover:rotate-90 duration-500">
 									<HiArrowNarrowRight className="ml-3" />
 								</span>

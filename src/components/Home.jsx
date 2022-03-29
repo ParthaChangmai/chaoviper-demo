@@ -16,13 +16,12 @@ const Home = () => {
 						Partha Changmai
 					</h1>
 					<h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
-						I am a Front end Developer.
+						I am a Front-end Developer.
 					</h2>
 					<p className="text-[#8892b0] py-4 max-2-[700px]">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						Necessitatibus odit, expedita repellat asperiores assumenda, veniam
-						dicta ad quam voluptatem neque nulla quo exercitationem, sequi alias
-						qui. Molestiae earum dolorum temporibus.
+						I’m a Front-end developer pursueing in building (and occasionally
+						designing) exceptional digital experiences. Presently, I’m focused
+						on building responsive front-end Web Applications.
 					</p>
 					<div>
 						<Link to="contact">

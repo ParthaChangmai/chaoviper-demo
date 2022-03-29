@@ -20,14 +20,16 @@ const About = () => {
 						<div></div>
 					</div>
 					<div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
-						<div className="sm:text-right text-4xl font-bold">
-							<p>Hi, I am Partha, Nice to meet you.Please take a look around</p>
+						<div className="sm:text-right text-3xl font-bold">
+							<p>
+								Hi, I am Partha, Nice to meet you.Please take a look around.
+							</p>
 						</div>
 						<div>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
-							similique molestias tempore eligendi reiciendis hic non autem
-							odio. Maiores aperiam dolor magni autem. Eum vitae quidem ullam,
-							corrupti optio in?
+							I am from Assam and I am passionate about building excellent web
+							pages that improves the lives of those around me. I am eager to
+							learn anything new which will help me in development of web
+							applications in near future.
 						</div>
 						<div className="sm:hidden flex pt-11">
 							<a

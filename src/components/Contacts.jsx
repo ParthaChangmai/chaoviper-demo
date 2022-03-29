@@ -6,7 +6,7 @@ const Contacts = () => {
 		<AnimationPage>
 			<div
 				name="contact"
-				className="bg-black w-full h-screen flex justify-center items-center p-4"
+				className="w-full h-screen flex justify-center items-center p-4"
 			>
 				<form
 					method="POST"

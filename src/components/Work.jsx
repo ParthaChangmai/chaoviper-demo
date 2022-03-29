@@ -5,7 +5,7 @@ import WorkImg from '../assets/workImg.jpeg';
 const Work = () => {
 	return (
 		<AnimationPage>
-			<div name="work" className="w-full md:h-screen text-gray-300 bg-black ">
+			<div name="work" className="w-full md:h-screen text-gray-300 ">
 				<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 					<div>
 						<p className="text-4xl font-bold inline border-b-4 border-[#6133f5] text-gray-300">

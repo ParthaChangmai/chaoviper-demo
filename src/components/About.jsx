@@ -1,5 +1,7 @@
 import React from 'react';
 import AnimationPage from '../animation/AnimationPage';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
 
 const About = () => {
 	return (
@@ -23,6 +25,32 @@ const About = () => {
 							similique molestias tempore eligendi reiciendis hic non autem
 							odio. Maiores aperiam dolor magni autem. Eum vitae quidem ullam,
 							corrupti optio in?
+						</div>
+						<div className="sm:hidden flex pt-11">
+							<a
+								className="text-[#0A66C2] bg-white"
+								href="https://www.linkedin.com/in/partha-changmai-6a9293208"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FaLinkedin size={30} />
+							</a>
+							<a
+								className="text-gray-200 pl-3"
+								href="https://github.com/ParthaChangmai"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FaGithub size={30} />
+							</a>
+							<a
+								className="text-[#6fc2b0] pl-3"
+								href="mailto:chaoviper@gmail.com"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<HiOutlineMail size={30} />
+							</a>
 						</div>
 					</div>
 				</div>

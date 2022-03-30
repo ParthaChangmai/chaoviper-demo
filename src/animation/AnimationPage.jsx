@@ -1,19 +1,20 @@
 import { motion } from 'framer-motion';
 
 const animations = {
-	initial: { x: -1000, opacity: 0 },
-	animate: { zIndex: 1, x: 0, opacity: 1 },
-	exit: { zIndex: 0, x: 1000, opacity: 0 },
+	initial: { x: -1000, opacity: 0, zIndex: 0 },
+	animate: { x: 0, opacity: 1, zIndex: 1 },
+	exit: { x: 1000, opacity: 0, zIndex: 0 },
 };
 
 const AnimationPage = ({ children }) => {
 	return (
 		<motion.div
+			key={Math.random()}
 			variants={animations}
 			initial="initial"
 			animate="animate"
 			exit="exit"
-			transition={{ duration: 0.15 }}
+			transition={{ type: 'keyframes', ease: 'easeInOut', duration: 0.4 }}
 		>
 			{children}
 		</motion.div>

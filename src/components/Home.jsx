@@ -13,7 +13,7 @@ const Home = () => {
 				<div>
 					<p className="text-[#6133f5] ">Hi, My Name is </p>
 					<h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
-						Partha Changmai
+						Partha Pratim Changmai
 					</h1>
 					<h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0]">
 						I am a Front-end Developer.

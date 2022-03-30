@@ -19,7 +19,7 @@ const Home = () => {
 						I am a Front-end Developer.
 					</h2>
 					<p className="text-[#8892b0] py-4 max-2-[700px]">
-						I’m a Front-end developer pursueing in building (and occasionally
+						I’m a Front-end developer pursuing in building (and occasionally
 						designing) exceptional digital experiences. Presently, I’m focused
 						on building responsive front-end Web Applications.
 					</p>

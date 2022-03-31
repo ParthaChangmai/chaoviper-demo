@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const animations = {
-	initial: { x: -1000, opacity: 0, zIndex: 0 },
-	animate: { x: 0, opacity: 1, zIndex: 1 },
-	exit: { x: 1000, opacity: 0, zIndex: 0 },
+	initial: { opacity: 0 },
+	animate: { opacity: 1 },
+	exit: { opacity: 0 },
 };
 
 const AnimationPage = ({ children }) => {
@@ -14,7 +14,7 @@ const AnimationPage = ({ children }) => {
 			initial="initial"
 			animate="animate"
 			exit="exit"
-			transition={{ type: 'keyframes', ease: 'easeInOut', duration: 0.4 }}
+			transition={{ type: 'keyframes' }}
 		>
 			{children}
 		</motion.div>

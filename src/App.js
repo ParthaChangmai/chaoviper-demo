@@ -12,9 +12,8 @@ function App() {
 
 	return (
 		<>
+			<Navbar />
 			<AnimatePresence exitBeforeEnter initial={false}>
-				<Navbar />
-
 				<Routes key={location.pathname} location={location}>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />

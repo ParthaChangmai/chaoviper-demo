@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import pc from '../assets/pc.png';
 import Social from './Social';
@@ -8,6 +8,8 @@ import Social from './Social';
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
+
+	let activeClassName = 'border-b-4 border-[#6133f5]';
 
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171717] text-gray-300">
@@ -19,19 +21,47 @@ const Navbar = () => {
 			{/* menu */}
 			<ul className="hidden md:flex ">
 				<li>
-					<Link to="/">Home</Link>
+					<NavLink
+						className={({ isActive }) =>
+							isActive ? activeClassName : 'hover:border-b-4 border-[#6133f5]'
+						}
+						to="/"
+					>
+						Home
+					</NavLink>
 				</li>
 				<li>
-					<Link to="about">About</Link>
+					<NavLink
+						className={({ isActive }) =>
+							isActive ? activeClassName : 'hover:border-b-4 border-[#6133f5]'
+						}
+						to="about"
+					>
+						About
+					</NavLink>
 				</li>
 				<li>
-					<Link to="skills">Skills</Link>
+					<NavLink
+						className={({ isActive }) =>
+							isActive ? activeClassName : 'hover:border-b-4 border-[#6133f5]'
+						}
+						to="skills"
+					>
+						Skills
+					</NavLink>
 				</li>
 				{/* <li>
-						<Link to="work">Work</Link>
+						<NavLink to="work">Work</NavLink>
 					</li> */}
 				<li>
-					<Link to="contact">Contact</Link>
+					<NavLink
+						className={({ isActive }) =>
+							isActive ? activeClassName : 'hover:border-b-4 border-[#6133f5]'
+						}
+						to="contact"
+					>
+						Contact
+					</NavLink>
 				</li>
 			</ul>
 			{/* Hamburger */}

@@ -6,7 +6,6 @@ import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import AnimationPage from '../animation/AnimationPage';
-import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Skills = () => {
 	return (

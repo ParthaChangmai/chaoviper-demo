@@ -29,17 +29,17 @@ const Navbar = () => {
 	const navBarBlue =
 		'fixed w-full h-[80px] flex justify-between items-center px-4  bg-[#182647] ';
 
-	useEffect(() => {
-		const themeData = window.localStorage.getItem('theme-data');
-		const savedValues = JSON.parse(themeData);
-		setBtn(savedValues.btn);
-		setNavbar(savedValues.navbar);
-	}, []);
+	// useEffect(() => {
+	// 	const themeData = window.localStorage.getItem('theme-data');
+	// 	const savedValues = JSON.parse(themeData);
+	// 	setBtn(savedValues.btn);
+	// 	setNavbar(savedValues.navbar);
+	// }, []);
 
-	useEffect(() => {
-		const valuesToSave = { btn, navbar };
-		window.localStorage.setItem('theme-data', JSON.stringify(valuesToSave));
-	});
+	// useEffect(() => {
+	// 	const valuesToSave = { btn, navbar };
+	// 	window.localStorage.setItem('theme-data', JSON.stringify(valuesToSave));
+	// });
 
 	useEffect(() => {
 		themeChange(false);

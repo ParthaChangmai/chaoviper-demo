@@ -25,9 +25,9 @@ const Navbar = () => {
 		'hover:text-white tab tab-lifted hover:tab-active text-white';
 
 	const navBarBlack =
-		'fixed w-full h-[40px] sm:h-[80px] flex justify-between items-center px-4  bg-[#171717] ';
+		'fixed w-full h-[50px] sm:h-[80px] flex justify-between items-center px-4  bg-[#171717] ';
 	const navBarBlue =
-		'fixed w-full h-[40px] sm:h-[80px] flex justify-between items-center px-4  bg-[#182647] ';
+		'fixed w-full h-[50px] sm:h-[80px] flex justify-between items-center px-4  bg-[#182647] ';
 
 	// useEffect(() => {
 	// 	const themeData = window.localStorage.getItem('theme-data');
@@ -78,7 +78,15 @@ const Navbar = () => {
 						}
 						to="/"
 					>
-						Home
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-5 w-5"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+						</svg>
+						<p className="pl-1">Home</p>
 					</NavLink>
 				</li>
 
@@ -89,7 +97,19 @@ const Navbar = () => {
 						}
 						to="about"
 					>
-						About
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-5 w-5"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fillRule="evenodd"
+								d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+								clipRule="evenodd"
+							/>
+						</svg>
+						<p className="pl-1">About</p>
 					</NavLink>
 				</li>
 				<li>
@@ -99,7 +119,19 @@ const Navbar = () => {
 						}
 						to="skills"
 					>
-						Skills
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-5 w-5"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fillRule="evenodd"
+								d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+								clipRule="evenodd"
+							/>
+						</svg>
+						<p className="pl-1">Skills</p>
 					</NavLink>
 				</li>
 				{/* <li>
@@ -112,7 +144,19 @@ const Navbar = () => {
 						}
 						to="contact"
 					>
-						Contact
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-5 w-5"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fillRule="evenodd"
+								d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z"
+								clipRule="evenodd"
+							/>
+						</svg>
+						<p className="pl-1">Contact</p>
 					</NavLink>
 				</li>
 			</ul>

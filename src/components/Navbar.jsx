@@ -25,9 +25,9 @@ const Navbar = () => {
 		'hover:text-white tab tab-lifted hover:tab-active text-white';
 
 	const navBarBlack =
-		'fixed w-full h-[80px] flex justify-between items-center px-4  bg-[#171717] ';
+		'fixed w-full h-[40px] sm:h-[80px] flex justify-between items-center px-4  bg-[#171717] ';
 	const navBarBlue =
-		'fixed w-full h-[80px] flex justify-between items-center px-4  bg-[#182647] ';
+		'fixed w-full h-[40px] sm:h-[80px] flex justify-between items-center px-4  bg-[#182647] ';
 
 	// useEffect(() => {
 	// 	const themeData = window.localStorage.getItem('theme-data');
